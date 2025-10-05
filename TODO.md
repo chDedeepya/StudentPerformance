@@ -1,0 +1,10 @@
+- [x] Modify src/pages/Landing.jsx: Update handleRoleSelect to navigate to "/signup" for student, "/signin" for faculty and admin
+- [x] Modify src/pages/Signup.jsx: Restrict to student only (remove faculty and admin options, 1-column grid, hardcode role to 'student' in userData and navigation)
+- [x] Create src/pages/admin/AdminManagement.jsx: New page for admins to add/manage other admins (similar to FacultyManagement)
+- [x] Update src/App.jsx: Add route for /admin/admin-management
+- [x] Update src/pages/admin/AdminDashboard.jsx: Add link to Admin Management in User Management section
+- [x] Test navigation from landing role cards
+- [x] Test signup for student only
+- [x] Test signin for faculty and admin
+- [x] Verify faculty and admin cannot be created via signup
+- [x] Enable quick actions in faculty dashboard by adding Quick Actions sections to courses and reports tabs
