@@ -1,0 +1,314 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "student",
+      "email": "student@gmail.com",
+      "password": "student",
+      "role": "student",
+      "level": 15,
+      "streak": 7,
+      "avatar": "https://api.dicebear.com/7.x/thumbs/svg?seed=alex",
+      "enrolledCourses": [1, 2, 3, 4]
+    },
+    
+    {
+      "id": 2,
+      "name": "Dr.David",
+      "email": "faculty@gmail.com",
+      "password": "faculty",
+      "role": "faculty",
+      "department": "Computer Science",
+      "courses": [1, 2],
+      "avatar": "https://api.dicebear.com/7.x/thumbs/svg?seed=sarah"
+    },
+    {
+      "id": 3,
+      "name": "Admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "role": "admin",
+      "avatar": "https://api.dicebear.com/7.x/thumbs/svg?seed=admin"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "name": "Data Structures & Algorithms",
+      "description": "Learn fundamental data structures and algorithms",
+      "instructor": "Dr. Sarah Smith",
+      "instructorId": 2,
+      "level": "Advanced",
+      "duration": "16 weeks",
+      "students": 45,
+      "progress": 75,
+      "nextClass": "2024-01-15",
+      "pendingAssignments": 3,
+      "assignments": [1, 2],
+      "quizzes": [1, 2, 3]
+    },
+    {
+      "id": 2,
+      "name": "Machine Learning Fundamentals",
+      "description": "Introduction to machine learning concepts",
+      "instructor": "Dr. Sarah Smith",
+      "instructorId": 2,
+      "level": "Intermediate",
+      "duration": "14 weeks",
+      "students": 38,
+      "progress": 60,
+      "nextClass": "2024-01-18",
+      "pendingAssignments": 2,
+      "assignments": [3],
+      "quizzes": [4, 5]
+    },
+    {
+      "id": 3,
+      "name": "Web Development",
+      "description": "Build modern web applications",
+      "instructor": "Prof. Mike Johnson",
+      "instructorId": 2,
+      "level": "Beginner",
+      "duration": "12 weeks",
+      "students": 31,
+      "progress": 40,
+      "nextClass": "2024-01-20",
+      "pendingAssignments": 4,
+      "assignments": [4, 5],
+      "quizzes": [6]
+    },
+    {
+      "id": 4,
+      "name": "Database Management Systems",
+      "description": "Design and manage databases",
+      "instructor": "Dr. Emily Davis",
+      "instructorId": 2,
+      "level": "Advanced",
+      "duration": "16 weeks",
+      "students": 42,
+      "progress": 85,
+      "nextClass": "2024-01-16",
+      "pendingAssignments": 3,
+      "assignments": [6],
+      "quizzes": [7, 8, 9]
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "title": "Binary Tree Implementation",
+      "courseId": 1,
+      "dueDate": "2024-01-20",
+      "status": "pending",
+      "description": "Implement a binary tree data structure in Python"
+    },
+    {
+      "id": 2,
+      "title": "Algorithm Analysis",
+      "courseId": 1,
+      "dueDate": "2024-01-25",
+      "status": "submitted",
+      "description": "Analyze time and space complexity of sorting algorithms"
+    },
+    {
+      "id": 3,
+      "title": "Linear Regression Project",
+      "courseId": 2,
+      "dueDate": "2024-01-22",
+      "status": "pending",
+      "description": "Build a linear regression model from scratch"
+    },
+    {
+      "id": 4,
+      "title": "HTML/CSS Portfolio",
+      "courseId": 3,
+      "dueDate": "2024-01-28",
+      "status": "in_progress",
+      "description": "Create a personal portfolio website"
+    },
+    {
+      "id": 5,
+      "title": "JavaScript Interactive App",
+      "courseId": 3,
+      "dueDate": "2024-02-05",
+      "status": "pending",
+      "description": "Build an interactive web application using JavaScript"
+    },
+    {
+      "id": 6,
+      "title": "Database Design Project",
+      "courseId": 4,
+      "dueDate": "2024-01-30",
+      "status": "pending",
+      "description": "Design a database schema for a library management system"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "Data Structures Basics",
+      "courseId": 1,
+      "score": 85,
+      "totalQuestions": 20,
+      "completed": true
+    },
+    {
+      "id": 2,
+      "title": "Algorithm Complexity",
+      "courseId": 1,
+      "score": 92,
+      "totalQuestions": 15,
+      "completed": true
+    },
+    {
+      "id": 3,
+      "title": "Mid-term Exam",
+      "courseId": 1,
+      "score": 78,
+      "totalQuestions": 50,
+      "completed": true
+    },
+    {
+      "id": 4,
+      "title": "ML Introduction",
+      "courseId": 2,
+      "score": 88,
+      "totalQuestions": 25,
+      "completed": true
+    },
+    {
+      "id": 5,
+      "title": "Supervised Learning",
+      "courseId": 2,
+      "score": 0,
+      "totalQuestions": 20,
+      "completed": false
+    },
+    {
+      "id": 6,
+      "title": "Web Fundamentals",
+      "courseId": 3,
+      "score": 95,
+      "totalQuestions": 30,
+      "completed": true
+    },
+    {
+      "id": 7,
+      "title": "SQL Basics",
+      "courseId": 4,
+      "score": 82,
+      "totalQuestions": 25,
+      "completed": true
+    },
+    {
+      "id": 8,
+      "title": "Database Normalization",
+      "courseId": 4,
+      "score": 0,
+      "totalQuestions": 20,
+      "completed": false
+    },
+    {
+      "id": 9,
+      "title": "Advanced Queries",
+      "courseId": 4,
+      "score": 0,
+      "totalQuestions": 25,
+      "completed": false
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "title": "Speed Learner",
+      "description": "Completed 5 lessons in one day",
+      "icon": "⚡",
+      "earned": true
+    },
+    {
+      "id": 2,
+      "title": "Perfect Score",
+      "description": "100% on ML Quiz #3",
+      "icon": "🎯",
+      "earned": true
+    },
+    {
+      "id": 3,
+      "title": "Streak Master",
+      "description": "7-day learning streak",
+      "icon": "🔥",
+      "earned": true
+    },
+    {
+      "id": 4,
+      "title": "Course Completer",
+      "description": "Completed first course",
+      "icon": "🎓",
+      "earned": false
+    },
+    {
+      "id": 5,
+      "title": "Quiz Master",
+      "description": "Scored 90%+ on 5 quizzes",
+      "icon": "🧠",
+      "earned": false
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "message": "New assignment available in Data Structures",
+      "type": "assignment",
+      "read": false,
+      "timestamp": "2024-01-10T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "message": "You're ranked #3 in this week's leaderboard!",
+      "type": "achievement",
+      "read": false,
+      "timestamp": "2024-01-10T14:30:00Z"
+    },
+    {
+      "id": 3,
+      "message": "ML Fundamentals quiz due tomorrow",
+      "type": "reminder",
+      "read": true,
+      "timestamp": "2024-01-09T16:45:00Z"
+    },
+    {
+      "id": 4,
+      "message": "New course material uploaded",
+      "type": "course",
+      "read": false,
+      "timestamp": "2024-01-10T09:15:00Z"
+    }
+  ],
+  "systemStats": {
+    "totalUsers": 2847,
+    "totalCourses": 45,
+    "activeInstructors": 67,
+    "systemUptime": 99.8,
+    "dailyActiveUsers": 1234,
+    "newRegistrations": 89
+  },
+  "systemHealth": [
+    { "metric": "Server Performance", "value": 95, "status": "excellent" },
+    { "metric": "Database Health", "value": 92, "status": "good" },
+    { "metric": "User Satisfaction", "value": 87, "status": "good" },
+    { "metric": "Course Completion", "value": 78, "status": "fair" }
+  ],
+  "pendingTasks": [
+    { "id": 1, "task": "Review 5 new faculty applications", "priority": "high" },
+    { "id": 2, "task": "Approve course material updates", "priority": "medium" },
+    { "id": 3, "task": "System maintenance scheduled for weekend", "priority": "low" },
+    { "id": 4, "task": "Review student feedback reports", "priority": "medium" }
+  ],
+  "recentActivities": [
+    { "id": 1, "text": "New course 'Advanced AI' created by Dr. Smith", "time": "2 hours ago", "type": "course" },
+    { "id": 2, "text": "System backup completed successfully", "time": "4 hours ago", "type": "system" },
+    { "id": 3, "text": "25 new student registrations today", "time": "6 hours ago", "type": "user" },
+    { "id": 4, "text": "Performance optimization applied", "time": "8 hours ago", "type": "system" },
+    { "id": 5, "text": "Faculty member John Doe promoted to Senior", "time": "1 day ago", "type": "user" }
+  ]
+}
