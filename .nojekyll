@@ -1,6 +1,0 @@
-node_modules
-Student/node_modules
-.git
-*.log
-package-lock.json
-Studenth/package-lock.json

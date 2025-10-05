@@ -3,7 +3,8 @@
  * Handles all CRUD operations for users, courses, assignments, etc.
  */
 
-const DB_URL = '/db.json';
+const BASE_PATH = import.meta.env.BASE_URL || '/';
+const DB_URL = BASE_PATH + 'db.json';
 
 class DataService {
   constructor() {
